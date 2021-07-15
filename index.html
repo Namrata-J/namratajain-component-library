@@ -1,138 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>component library</title>
+    <title>Home | NamrataJain</title>
+    <link rel="shortcut icon" type="image/png" href="Images/favicon.png"/>
 
-    <link href="style.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
 </head>
-
 <body>
-    <h1>NamrataJain's component library</h1>
-    <p>I want to make a component library which would help me to make my projects look much more good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second biggest.</h2>
-    <p>Let me show you the normal text.This is a free flowing and will wrap at the end like a paragraph.</p>
-    <p>This para will have a <strong>bold</strong> text.</p>
-    <small>This is relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>@fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>@center container</h3>
-    <div class="container container-center">This is centered container and it will go till the specified width.</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullets.</p>
-
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-         <li class="list-item-inline">Inline item one </li>
-         <li class="list-item-inline">Inline item two </li>
-         <li class="list-item-inline">Inline item three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
 
     <nav class="navigation container">
-        <div class="new-brand">iAmBrand</div>
+        <div class="new-brand">iAmDeveloper</div>
         <ul class="list-non-bullet nav-pills">
             <li  class=list-item-inline>
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class=list-item-inline>
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">projects</a>
             </li>
             <li class=list-item-inline>
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+            <li class=list-item-inline>
+                <a class="link" href="/paintings.html">paintings</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
         <img class="hero-img" src="Images/photo.svg">
         <h1 class="hero-heading">Namrata Jain the<span class="heading-inverted"> web developer</span></h1>
     </header>
 
-    <hr>
-
-    <h2>@section</h2>
+    <section class="section offwhite">
+        <div class="container container-center">
+        <h1>Technologies</h3>
+        <p>I am familiar with HTML ,Markdown ,CSS3 ,CHALK ,Git ,VsCode ,NodeJs ,Replit ,Java ,JavaScript ,WebHosting and on my way to be a full stack developer.</p>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container container-center">
-        <h1>@white section</h3>
-        <p>This will have white background</p>
+        <h1>Projects</h3>
+        <p>I like to showcase my work and thus you can see my projects hosted online.</p>
+        <a class="link link-primary" href="projects.html">My Projects</a>
         </div>    
     </section>
 
     <section class="section offwhite">
         <div class="container container-center">
-        <h1>@off white section</h3>
-        <p>This will have a gray bakground</p>
+        <h1>Blogs</h3>
+        <p>I am also working on some technical and non-technical blogs.I like to document my journey of learning.</p>
+        <a class="link link-secondary" href="blogs.html">My Blogs</a>
         </div>
     </section>
 
-    <hr>
+    <section class="section">
+        <div class="container container-center">
+        <h1>Paintings</h3>
+        <p>I love to paint.My art describes my thoughts and i love to showcase my paintings.Its a healer for me.</p>
+        <a class="link link-primary" href="paintings.html">My Paintings</a>
+        </div>    
+    </section>
 
-    <h2>@footer</h2>
+    <div style="height:10vh;"></div>
 
     <footer class="footer">
-    <div class="footer-heading">Some small heading inside footer</div>
-    <ul class=list-non-bullet>
-        <li class="list-item-inline"><a class="link" href="/">Socialone</a></li>
-        <li class="list-item-inline"><a class="link" href="/">Socialtwo</a></li>
-        <li class="list-item-inline"><a class="link" href="/">Socialthree</a></li>
-    </ul>
-    </footer>
+        <div class="footer-heading">Get in touch with me on social media via:</div>
+        <ul class=list-non-bullet>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Namrata-J" target="_blank">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.facebook.com/profile.php?id=100036608312591" target="_blank">Facebook</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/the_dexterous_me?r=nametag" target="_blank">Instagram</a></li>
+            <li class="list-item-inline"><a class="link" href="mailto: namratajain29001@gmail.com" target="_blank">Gmail</a></li>
+            <li class="list-item-inline"><a class="link" href="https://t.me/Iam_NamrataJain" target="_blank">Telegram</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.clubhouse.com/@im_muse" target="_blank">Clubhouse</a></li>
+        </ul>
+        </footer>
 
-
-    <div style="height:30vh;"></div>
+        <div style="height:4vh;"></div>
+    
+    
+    
+    
 
 </body>
-
 </html>
