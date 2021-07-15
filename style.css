@@ -51,7 +51,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 
 /**navigation**/
@@ -126,6 +126,7 @@ hr{
 .footer-heading{
     text-align: center;
     padding: 2rem;
+    font-weight: bold;
     color: white;
 }
 .footer .list-non-bullet{
@@ -134,4 +135,41 @@ hr{
 }
 .footer .link{
     color: white;
+}
+.special{
+    color: var(--color-grey);
+}
+.section .special{
+    padding: 0rem;
+    text-align: left;
+}
+.join{
+    text-align: center;
+    color: var(--color-grey);
+    font-size: larger;
+    padding: 1rem;
+}
+.footer a:hover{
+background-color: var(--color-grey);
+border-radius: 10rem;
+}
+.paint{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 10px;
+}
+.ab{
+    padding: 1rem;
+}
+.abc{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 30rem;
+    margin-bottom: 0rem;
+}
+.abcd{
+    text-align: center;
+    color: var(--color-grey);
 }
