@@ -16,7 +16,7 @@ hr{
     margin: 2rem 0rem;
 }
 
-/**container**/
+/*container*/
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -26,7 +26,7 @@ hr{
     margin: auto;
 }
 
-/**links**/
+/*links*/
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -44,7 +44,7 @@ hr{
     border: 1px solid var(--primary-color);
 }
 
-/**lists**/
+/*lists*/
 .list-non-bullet{
     list-style: none;
 }
@@ -54,7 +54,7 @@ hr{
     padding: 0.5rem 0.5rem;
 }
 
-/**navigation**/
+/*navigation*/
 .navigation{
     background-color: var(--primary-color);
     color: white;
@@ -80,9 +80,10 @@ hr{
     font-weight: bold;
 }
 
-/**header**/
+/*header*/
 .hero{
     padding: 2rem;
+
 }
 
 .hero-img{
@@ -104,6 +105,8 @@ hr{
 /**section**/
 .section{
     padding: 2rem;
+    margin: auto;
+    text-align: center;
 }
 
 .section h1{
