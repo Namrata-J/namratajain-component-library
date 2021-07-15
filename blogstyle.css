@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&family=Tajawal&family=Tourney:wght@800&display=swap');
+
+:root{
+    --orange: #D97706;
+    --color-grey: #6B7280;
+    --light-grey: #9CA3AF;
+    --color-pink: #EF4444;
+    --color-green: #10B981;
+
+}
+
+
+.hero{
+    font-family: 'Tourney', cursive;
+    margin: 0px;
+    color: var(--orange);
+}
+.hero .heading{
+    color: var(--color-grey);
+}
+
+body{
+    font-family: 'Signika', sans-serif;
+}
+
+span{
+    color: var(--light-grey);
+}
+.photo{
+    display: block;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 3rem;
+}
+.head{
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 2rem;
+}
