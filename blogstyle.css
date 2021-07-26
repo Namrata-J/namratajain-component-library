@@ -11,7 +11,7 @@
 
 }
 
-
+/* markdown css */
 .hero{
     font-family: 'Tourney', cursive;
     margin: 0px;
@@ -38,4 +38,28 @@ span{
     color: var(--color-grey);
     text-align: center;
     font-size: 2rem;
+}
+/* blog1 css */
+.heroblog1{
+    color: var(--color-pink);
+}
+.syntax{
+    font-size: 1.4rem;
+    color: var(--color-green);
+}
+.value{
+    color: var(--color-pink);
+    font-size: 1.1rem;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    max-width: 900px;
+    margin-bottom: 3rem;
+}
+.note{
+    color: var(--color-grey);
+    text-align: center;
+    font-size: 1.2rem;
 }
