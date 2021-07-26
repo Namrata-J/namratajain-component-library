@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confused with display property in CSS!?</title>
+
+    <link rel="shortcut icon" type="image/png" href="Images/faviconblog.png"/>
+
+    <link rel="stylesheet" href="/blogstyle.css"/>
+</head>
+<body>
+    <h1 class="hero heroblog1">Blog <span class="hero heading">|| NamrataJain</span></h1>
+    <small>25th July,2021</small>
+    <br>
+    <h2 class="head"><bold>Confused with display property in CSS!?</bold></h2>
+    <hr>
+
+    <p>So are you finding it difficult to differentiate among CSS layouts!?Or how's it different from visibility CSS property!?If yes,then this blog will definately and certainly help you to understand that what's the basic difference among diffferent CSS layouts.</p>
+    <p>So the display property is used to specify how an element should be displayedand the syntax for CSS display property is:</p>
+    <p class="syntax"><strong>Property: Value;</strong></p>
+    <p>Now let's see some commonly used display properties and let's check out what's the difference between them.</p>
+
+    <p class="value"><strong>display: inline;</strong></p>
+    <p>->display an element as an inline element.<br>
+       ->any height and width property have no effect.<br>
+       ->an inline element does not start on a new line and takes up only as much width as necessary.For example:</p>
+    <ul>
+        <li>span element</li>
+        <li>a element</li>
+        <li>img tag,etc.</li>
+    </ul> 
+    <p>The image below shows an inline element "span".And since it's a inline element,it won't have any effect of height and width property on it.</p>  
+    <img src="Images/img1.png">
+    <p>The image below shows an "p" element.In html every element has a default value.However,you can override this value by changing the display value.Here the block display is overridden by inline.And since it's declared as an inline, it won't have any effect of height and width on it.</p>
+    <img src="Images/img2.png">
+    <p>The image below is to show you that after removing th height and width property from the above example, the layout remains same.Hence,it's a proof that height and width property shows no effect on an inline element.</p>
+    <img src="Images/img3.png">
+
+    <p class="value"><strong>display: block;</strong></p>
+    <p>->display an element as a block element.<br>
+       ->starts up on a new line and takes up to the whole width available.For example:</p>
+    <ul>
+        <li>div element</li>
+        <li>h1-h6 tag elements</li>
+        <li>p element</li>
+        <li>form element</li>
+        <li>footer element</li> 
+        <li>section,etc.</li>
+    </ul>
+    <p>The image below shows a block element "p".And since it's a block element, it takes up to the whole width.</p>
+    <img src="Images/img4.png">
+   
+    <p class="value"><strong>display: inline-block;</strong></p>
+    <p>->displays an element as an inline level block container.<br>
+       ->the element itself is formatted as an inline element,but you can apply height and width.</p>
+    <p>The images below show how a block element is overridden as inline-block element.And since it's declared as an inline-block,therefore you can apply height and width to it.</p>   
+    <img src="Images/img5.png">
+    <img src="Images/img6.png">   
+
+    <p class="value"><strong>display: none;</strong></p>
+    <p>->removes the entire element from the page.<br>
+       ->removes an element from the document and hides it from view.</p>
+    <img src="Images/img7.png">  
+
+    <p class="note"><strong> Note:Every HTML element has a default display value which could be either block or inline.However, you can override this by changing the display value.</strong></p>
+    <p>Now most of the people gets confused between display and visibility property.</p>
+    <p class="value"><strong>display: none; v/s visibility: hidden;</strong></p>
+    <p>Hiding an element can be done by using the display property to none.The display:none; removes an element from the document and hides it from the view.The element will be hidden and the page will be displayed as if the element is not there.</p>
+    <p>The visibility hidden also hides the element.The visibility: hidden; rule hides an element on a document and leaves the space in which the element would have appeared empty.The element will still take up the same space as before or more precisely to say, the element will be hidden,but will still affect the layout.</p>
+    <img src="Images/img7.png"> 
+    <img src="Images/img8.png"> 
+</body>
+</html>
