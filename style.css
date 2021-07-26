@@ -118,6 +118,11 @@ hr{
     background-color: var(--light-grey);
 }
 
+.section p{
+    text-align: left;
+    padding: 0rem;
+}
+
 /**footer**/
 .footer{
     background-color: var(--primary-color);
